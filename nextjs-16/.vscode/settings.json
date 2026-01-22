@@ -11,20 +11,14 @@
   },
 
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
 
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
   "eslint.useFlatConfig": true
-  
 }
