@@ -11,7 +11,7 @@
     "noEmit": true,
     "verbatimModuleSyntax": true,
     "paths": {
-      "@boilerplate/shared": ["../shared/types.ts"]
+      "@boilerplate/shared": ["../shared/src/index.ts"]
     }
   },
   "include": ["src"]
